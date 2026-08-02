@@ -1,7 +1,27 @@
 aid: winden
 name: Winden
-description: 'Winden is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Winden (Winden Technologies, Inc.) is a US fintech offering an AI-powered
+  business credit card built to maximize cash back on every purchase. Its Visa commercial
+  card advertises 2% unlimited cash back, and its Scout AI automatically hunts for
+  discounts and promo codes at checkout. Alongside the card, Winden bundles business
+  banking-style services: virtual cards with custom spend limits and merchant locks,
+  free domestic ACH and wire transfers, invoicing and payment management, an AI CFO
+  for accounting and cash-flow projections, 24/7 concierge support, and integrations
+  with common accounting and payroll software. Winden is a consumer/SMB financial
+  product; as of this enrichment pass it publishes no public developer API, SDKs,
+  or API documentation surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62ba0a15888f8ec50d46aa98/63751bd88a7acf04cfa3e9f5_Winden%20Open%20Graph%20Image.png
 url: https://raw.githubusercontent.com/api-evangelist/winden/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Business Banking
+- Credit Cards
+- Payments
+- Cash Back
+- SMB
+- Corporate Cards
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.winden.co
+  url: https://www.winden.co
+- type: Pricing
+  url: https://www.winden.co/#pricing
+- type: TermsOfService
+  url: https://www.winden.co/terms
+- type: PrivacyPolicy
+  url: https://www.winden.co/privacy-policy
+- type: Login
+  url: https://app.winden.co/auth/login
+- type: DomainSecurity
+  url: security/winden-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
